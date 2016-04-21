@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html><html>
+<body>
+<form id="form-propuesta" class="contact-form flowuplabels" action="pushformdata" role="form" method="post">
+    <h3 style="margin-bottom: 20px;">Envianos tu propuesta/opinión</h3>
+    <div class="col-md-12" style="padding-left: 0px; padding-right: 0px;">
+        <!-- Nombre -->
+        <div class="form-group">
+            <div class="input-group">
+                <input type="text" class="form-control" name="name" id="nombre" placeholder="Nombre" required="">
+                <span class="input-group-addon"><i class="fa fa-asterisk form-control-feedback"></i></span>
+            </div>
+        </div>
+        <!-- Correo Electronico -->
+        <div class="form-group">
+            <div class="input-group">
+                <input type="text" class="form-control" id="email" name="correo_electronico" placeholder="Correo Electrónico" required="">
+                <span class="input-group-addon"><i class="fa fa-asterisk form-control-feedback"></i></span>
+            </div>
+        </div>
+        <!-- Docente -->
+        <div class="form-group">
+            <h5 class="col-md-7">¿Sos docente?</h5>
+            <div class="input-group col-md-5">
+                <input class="col-md-3 regular-radio" type="radio" name="docente" value="1" id="docente1">
+                <label for="docente1"><span>SI</span></label>
+                <input class="col-md-3 regular-radio" type="radio" name="docente" value="0" id="docente2">
+                <label for="docente2"><span>NO</span></label>
+                <!-- <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span> -->
+            </div>
+        </div>
+        <!-- Participo del foro -->
+        <div class="form-group">
+            <h5 class="col-md-7">¿Participaste del Primer Foro Ambiental?</h5>
+            <div class="input-group col-md-5">
+                <input class="col-md-3 regular-radio" type="radio" name="participo_foro" value="1" id="participo_foro1">
+                <label for="participo_foro1"><span>SI</span></label>
+                <input class="col-md-3 regular-radio" type="radio" name="participo_foro" value="0" id="participo_foro2">
+                <label for="participo_foro2"><span>NO</span></label>
+                <!-- <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span> -->
+            </div>
+        </div>
+        <!-- Comentario -->
+        <div class="form-group">
+            <div class="input-group">
+                <textarea type="email" class="form-control" id="comentario" name="comentario" placeholder="Escribí tu comentario" required=""></textarea>
+                <span class="input-group-addon"><i class="fa fa-asterisk form-control-feedback"></i></span>
+            </div>
+        </div>
+        <!-- subir archivo -->
+        <div class="form-group">
+            <h5 class="col-md-12">Subí tus documentos... (fotos, videos, doc, pdf, etc.)</h5>
+            <div class="content-input-file">
+                <div class="file-input file-input-ajax-new"><div class="file-preview ">
+                    <div class="close fileinput-remove">×</div>
+                    <div class=" file-drop-zone"><div class="file-drop-zone-title">Arrastre y suelte aquí el archivo …</div>
+                        <div class="file-preview-thumbnails">
+                        </div>
+                        <div class="clearfix"></div>    <div class="file-preview-status text-center text-success"></div>
+                        <div class="kv-fileinput-error file-error-message" style="display: none;"></div>
+                    </div>
+                </div>
+                    <div class="kv-upload-progress hide"><div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
+                            0%
+                        </div>
+                    </div></div>
+                    <div class="input-group ">
+                        <div tabindex="500" class="form-control file-caption  kv-fileinput-caption">
+                            <div class="file-caption-name">Subir Archivo...</div>
+                        </div>
+
+                        <div class="input-group-btn">
+                            <button type="button" tabindex="500" title="Quitar archivo seleccionado" class="btn btn-default fileinput-remove fileinput-remove-button"><i class="glyphicon glyphicon-trash"></i> <span class="hidden-xs">Quitar</span></button>
+                            <button type="button" tabindex="500" title="Abortar la subida en curso" class="btn btn-default hide fileinput-cancel fileinput-cancel-button"><i class="glyphicon glyphicon-ban-circle"></i> <span class="hidden-xs">Cancelar</span></button>
+                            <a href="http://fam.chaco.gov.ar/#" tabindex="500" title="Subir archivos seleccionados" class="btn btn-default fileinput-upload fileinput-upload-button"><i class="glyphicon glyphicon-upload"></i> <span class="hidden-xs">Subir archivo</span></a>
+                            <div tabindex="500" class="btn btn-primary btn-file"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; <span class="hidden-xs">Examinar</span><input id="archivo1" name="archivo1" type="file" placeholder="Subir archivo"></div>
+                        </div>
+                    </div></div>
+            </div>
+            <div class="content-input-file">
+                <div class="file-input file-input-ajax-new"><div class="file-preview ">
+                    <div class="close fileinput-remove">×</div>
+                    <div class=" file-drop-zone"><div class="file-drop-zone-title">Arrastre y suelte aquí el archivo …</div>
+                        <div class="file-preview-thumbnails">
+                        </div>
+                        <div class="clearfix"></div>    <div class="file-preview-status text-center text-success"></div>
+                        <div class="kv-fileinput-error file-error-message" style="display: none;"></div>
+                    </div>
+                </div>
+                    <div class="kv-upload-progress hide"><div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
+                            0%
+                        </div>
+                    </div></div>
+                    <div class="input-group ">
+                        <div tabindex="500" class="form-control file-caption  kv-fileinput-caption">
+                            <div class="file-caption-name">Subir Archivo...</div>
+                        </div>
+
+                        <div class="input-group-btn">
+                            <button type="button" tabindex="500" title="Quitar archivo seleccionado" class="btn btn-default fileinput-remove fileinput-remove-button"><i class="glyphicon glyphicon-trash"></i> <span class="hidden-xs">Quitar</span></button>
+                            <button type="button" tabindex="500" title="Abortar la subida en curso" class="btn btn-default hide fileinput-cancel fileinput-cancel-button"><i class="glyphicon glyphicon-ban-circle"></i> <span class="hidden-xs">Cancelar</span></button>
+                            <a href="http://fam.chaco.gov.ar/#" tabindex="500" title="Subir archivos seleccionados" class="btn btn-default fileinput-upload fileinput-upload-button"><i class="glyphicon glyphicon-upload"></i> <span class="hidden-xs">Subir archivo</span></a>
+                            <div tabindex="500" class="btn btn-primary btn-file"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; <span class="hidden-xs">Examinar</span><input id="archivo2" name="archivo2" type="file" placeholder="Subir archivo"></div>
+                        </div>
+                    </div></div>
+            </div>
+            <div class="content-input-file">
+                <div class="file-input file-input-ajax-new"><div class="file-preview ">
+                    <div class="close fileinput-remove">×</div>
+                    <div class=" file-drop-zone"><div class="file-drop-zone-title">Arrastre y suelte aquí el archivo …</div>
+                        <div class="file-preview-thumbnails">
+                        </div>
+                        <div class="clearfix"></div>    <div class="file-preview-status text-center text-success"></div>
+                        <div class="kv-fileinput-error file-error-message" style="display: none;"></div>
+                    </div>
+                </div>
+                    <div class="kv-upload-progress hide"><div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
+                            0%
+                        </div>
+                    </div></div>
+                    <div class="input-group ">
+                        <div tabindex="500" class="form-control file-caption  kv-fileinput-caption">
+                            <div class="file-caption-name">Subir Archivo...</div>
+                        </div>
+
+                        <div class="input-group-btn">
+                            <button type="button" tabindex="500" title="Quitar archivo seleccionado" class="btn btn-default fileinput-remove fileinput-remove-button"><i class="glyphicon glyphicon-trash"></i> <span class="hidden-xs">Quitar</span></button>
+                            <button type="button" tabindex="500" title="Abortar la subida en curso" class="btn btn-default hide fileinput-cancel fileinput-cancel-button"><i class="glyphicon glyphicon-ban-circle"></i> <span class="hidden-xs">Cancelar</span></button>
+                            <a href="http://fam.chaco.gov.ar/#" tabindex="500" title="Subir archivos seleccionados" class="btn btn-default fileinput-upload fileinput-upload-button"><i class="glyphicon glyphicon-upload"></i> <span class="hidden-xs">Subir archivo</span></a>
+                            <div tabindex="500" class="btn btn-primary btn-file"><i class="glyphicon glyphicon-folder-open"></i>&nbsp; <span class="hidden-xs">Examinar</span><input id="archivo3" name="archivo3" type="file" placeholder="Subir archivo"></div>
+                        </div>
+                    </div></div>
+            </div>
+        </div>
+
+        <!-- <div class="form-group">
+            <h5 class="col-md-12 alert-spam" style="background-color: rgba(253,118,118,0.4);">Vas a recibir un correo con la confirmación. Por favor, revisá tu carpeta SPAM en caso de no ver el correo en tu bandeja de entrada</h5>
+        </div>
+-->
+        <input type="submit" name="submit" id="submit" value="Enviar" onclick="EnviarProp();" class="btn wow tada btn-embossed btn-primary pull-left animated animated" style="width: 100%; visibility: visible;">
+    </div>
+
+    <input name="verif_foroambmuni" class="verif_foroambmuni" value="circulo.digital2016xcvf" type="hidden">
+
+</form>
+</body>
+</html>
